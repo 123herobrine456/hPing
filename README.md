@@ -17,17 +17,17 @@ PlaceholderAPI (Required for ping placeholder parsing)
 The plugin uses two files for easy management:
 config.yml:
 ```
-prefix: '&8[&aPing&8] '
+prefix: '&8[&chPing&8] '
 ```
 
 lang.yml:
 ```
 # You can use placeholders that PlaceholderAPI can parse in this line
-self-ping: '&cPing: &a%player_ping%---'
+self-ping: '&fYour Ping: &a%player_ping%'
 # You can use placeholders that PlaceholderAPI can parse in this line
-others-ping: '&c%player_name%'' Pin: &a%player_ping%---'
-player-offline: '&1This Player Is Offline---'
-reloaded: '&cPlugin Reloaded!---'
-no-permission: '&aYou Dont Have Permission---'
+others-ping: '&f%player_name%''s Ping: &a%player_ping%'
+player-offline: '&cThis Player Is Offline'
+reloaded: '&aPlugin Reloaded!'
+no-permission: '&cYou Dont Have Permission'
 ```
 
