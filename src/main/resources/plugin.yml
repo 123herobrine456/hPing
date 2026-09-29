@@ -1,0 +1,31 @@
+name: hPing
+description: $description
+prefix: hPing
+version: '${version}'
+
+main: ir.paradoxteam.hPing.Main
+api-version: '1.21'
+
+authors: [ 123herobrine456 ]
+website: https://modrinth.com/plugin/h-ping
+
+depend: ["PlaceholderAPI"]
+
+commands:
+  ping:
+    description: Main command for hPing
+    aliases: [ hping ]
+  pingreload:
+    description: Reload config of hPing plugin
+    aliases: [ hpingreload ]
+
+permissions:
+  hping.reload:
+    description: Allows reloading the config
+    default: op
+  hping.self:
+    description: Allows see self ping
+    default: true
+  hping.others:
+    description: Allows see other players ping
+    default: op
